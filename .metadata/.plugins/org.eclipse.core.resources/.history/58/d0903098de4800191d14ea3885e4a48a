@@ -1,0 +1,40 @@
+package com.class10;
+
+public class ArrayDemo {
+	public static void main (String[]args) {
+		
+		int[] numbers=new int [4];
+		
+		numbers[0]=1;
+		numbers[1]=15;
+		numbers[1]=15;
+		numbers[3]=10;
+		
+		System.out.println();
+				System.out.println(numbers[0]);
+				        System.out.println(numbers[2]);//0
+				        
+				        numbers [0]=2;//we reassigned the value of array#0
+				        System.out.println(numbers[0]);
+		
+		
+		
+		
+	//how to create an array another way
+		//               0, 1, 2, 3
+		 int [] array= {10,20,30,40};
+		 
+		 System.out.println(array[2]);
+		 
+		 System.out.println(array.length);//to find a size of an array
+		 //string of names -3 ;
+		 String[] names= {"John", "Mike", "Jane"};
+		 System.out.println("There are" +names.length+ "values in my array of names");
+		 
+		 System.out.println(names[2]);
+		 
+		 
+		 
+	}
+}
+		 

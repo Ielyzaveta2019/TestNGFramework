@@ -1,0 +1,11 @@
+package com.class18;
+
+public class Task {
+
+	
+	String createEmail(String userName, String lastName, String emailType) {
+		return emailType;
+		}
+	}
+
+

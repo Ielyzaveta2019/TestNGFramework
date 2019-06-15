@@ -1,0 +1,18 @@
+package com.class14;
+
+public class Computer {
+	boolean mouse,keyboard;
+	int screen,ram;
+	String os;
+	public static void main(String [] args) {
+		 Computer comp1 = new Computer();
+		 
+		comp1.mouse=true;
+		comp1.keyboard=true;
+		comp1.os="Windows";
+		comp1.screen=2;
+		comp1.ram=8;
+	}
+	
+
+}

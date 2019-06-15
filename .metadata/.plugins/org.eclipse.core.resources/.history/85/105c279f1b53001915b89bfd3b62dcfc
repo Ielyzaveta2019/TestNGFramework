@@ -1,0 +1,49 @@
+package com.Class13;
+
+public class Interviewquestions {
+
+	public static void main(String[] args) {
+// 1. Write a program to swap 2 numbers without a temporary variable? Swap  2 strings without a temporary variable?
+
+//2.Write a java program to find the second largest number in the array? Maximum and minimum number in the array?
+
+//3. Find out how many alpha characters present in a string?
+
+//4.How to find out the part of the string from a string? What is substring? Find number of words in string?
+
+//5. Write a java program to reverse String? Reverse a string word by word?
+		//1
+		String a="10";
+        String b="20";
+        System.out.println(a.replace(a,b));
+        System.out.println(b.replace(b,a));
+        
+        //2
+        int [] num = {9,4,3,8,12};
+        int largest = num[0], temp =0;
+        for (int i=0; i< num.length-1;i++) {
+        	for(int j=0; j<num.length-1; j++) {
+        		if(num[j] > num[j+1]) {
+        			temp = num[j];
+        			num[j] = num[j+1];
+        			num[j+1] = temp;
+        		}
+        	}
+        }
+        for(int x:num) {
+        	System.out.print( x +", ");
+        }
+        
+        //3
+        String str="Today is Java";
+		String [] array=str.split("A-Za-z");
+		System.out.println(array.length);
+		
+        //4
+		String str1="Today is Saturday";
+		//String [] 
+		
+        
+	}
+
+}

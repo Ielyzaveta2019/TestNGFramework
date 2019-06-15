@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="regression">
+    <classes>
+      <class name="com.syntax.testcases.LoginPageTest"/>
+      <class name="com.syntax.practice.ExcelReview"/>
+      <class name="com.syntax.testcases.AddEmployeePageTest"/>
+      <class name="com.syntax.testcases.LocationPageTest"/>
+      <class name="com.syntax.utils.BaseClass"/>
+      <class name="com.syntax.practice.ExcelWriteDemo"/>
+      <class name="com.syntax.practice.ExcelFunctionsTest"/>
+    </classes>
+  </test> <!-- regression -->
+</suite> <!-- Suite -->

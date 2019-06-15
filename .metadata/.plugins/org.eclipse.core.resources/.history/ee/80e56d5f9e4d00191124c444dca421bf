@@ -1,0 +1,38 @@
+package com.class11;
+
+public class Task3 {
+
+	public static void main(String[] args) {
+		// Create an array of cars : american, german, korean, italian. then retrieve all values from that array
+		
+		String [][]cars = {{"Dodge", "Ford", "Tesla"},
+		            {"BMW","Mercedes"},
+		            {"Hyundai", "Kia","Daewoo"},
+		            {"Ferrari", "Maserati", "Lamborghini","Alfa Romeo"}
+	};
+	for (int i=0; i<cars.length; i++) {
+		for(int j=0;j<cars[i].length;j++) {
+			System.out.print(cars[i][j]+" ");
+		}
+		System.out.println();
+
+		}
+	
+//	String [][] hello=new String[5][5];
+//	for(int i=0; i<=hello.length-1;i++) {
+//		for(int j=0; j<=hello[i].length-1;j++) {
+//			
+//			hello[i][j]= i+"," +j +" ";
+//		}
+//	}
+//	
+//	for(int i=0; i<=hello.length-1;i++) {
+//		for(int j=0; j<=hello[i].length-1;j++) {
+//			System.out.print(hello[i][j]);
+//		}
+//		System.out.println();
+//	}
+	
+	}
+
+}

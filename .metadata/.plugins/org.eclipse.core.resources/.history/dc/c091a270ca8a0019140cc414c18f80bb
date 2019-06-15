@@ -1,0 +1,47 @@
+package com.syntax.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LoginPage  {
+	// the other way using page factory
+//@findBy is a technique or approach to locate elements
+	//locating WebElement using
+	
+		@FindBy(id = "txtUsername") // Specifying which locator we're looking for
+		public WebElement userName;
+
+		@FindBy(name = "txtPassword")
+		public WebElement password;
+
+		@FindBy(id = "btnLogin")
+		public WebElement loginBtn;
+		
+		@FindBy(css="img[src*='logo.png']")
+		public WebElement logo;
+		
+		//initializing all of our variables
+		
+		public LoginPage() {
+			PageFactory.initElements(driver, this);    //using static method                                  
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}

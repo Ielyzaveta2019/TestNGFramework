@@ -1,0 +1,20 @@
+package com.class10;
+
+public class Task {
+	//Create an array of chars and store grades into it: A,B,C,D,E,F. 
+	//Then print a grade B (use 2 different ways of creating an array).
+	
+	public static void main (String[]args) {
+		int [] array = {'A', "B", "C", "D", "E", "F",}
+		System.out.println (grades[1]);
+	
+		
+		
+		String[] names= {"Liza", "Douglas", "Valeria", "Ryan"}
+		System.out.println (names[0]);
+		
+		
+		
+	}
+
+}

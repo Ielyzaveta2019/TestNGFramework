@@ -1,0 +1,33 @@
+package com.class18;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		/*Create a method that will take 1 parameter as a String and return reversed String. Method should be visibly only within same package.
+
+        Create a method that will take a String and return whether String is palindrome or not. Method should available to all classes within your projects.
+
+       Create a method that will take a string and return array of words from that string. Method should be available only within same class.
+		 * 
+		 *
+		 */
+		
+		Task1 obj = new Task1(); 
+		String rev = obj.getReverse("Liza");
+		System.out.println(rev);
+	}
+	
+	
+ String getReverse(String Liza) {
+	String reverse = "";
+	 
+	for (int i=Liza.length(); i>0; i++) {
+		reverse+=Liza.charAt(i);
+	}
+	return reverse;
+	
+	 
+ }
+	}
+
+

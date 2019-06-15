@@ -1,0 +1,11 @@
+package com.class22;
+
+public class Test {
+	Degree obj=new Degree();
+	Postgraduate obj1=new Postgraduate();
+	Undergraduate obj2=new Undergraduate();
+	
+	obj.getDegree();
+	
+
+}

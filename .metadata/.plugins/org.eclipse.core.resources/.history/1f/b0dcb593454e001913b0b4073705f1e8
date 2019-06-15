@@ -1,0 +1,28 @@
+package com.Class12;
+
+public class ForEachIn2D {
+
+	public static void main(String[] args) {
+		/*create a grocery list :fruits{}
+                              /veggies{}
+                               * dairy{}   
+                               */
+		//Retrieve all values using two different loops
+		
+	String [] grocerylist={ {"strawberries", "bananas", "apples"},
+			                {"avocado","potatoes","cabbage","tomatoes"},
+			                {"milk","cheese","butter"}};
+	for (String[]groceries:grocerylist) {
+		for (String name:groceries) {
+			System.out.println(name);
+		}
+	}
+			  
+		
+		
+		
+		
+	}
+	
+
+}

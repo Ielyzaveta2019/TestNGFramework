@@ -1,0 +1,8 @@
+package com.syntax.testcases;
+
+import com.syntax.utils.BaseClass;
+
+public class LocationPageTest extends BaseClass{
+
+	
+}

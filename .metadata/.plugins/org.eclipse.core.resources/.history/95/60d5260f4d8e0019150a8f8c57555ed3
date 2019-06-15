@@ -1,0 +1,20 @@
+package com.syntax.testcases;
+
+import org.testng.annotations.Test;
+
+import com.syntax.pages.LoginPage;
+import com.syntax.utils.BaseClass;
+
+public class LocationPageTest extends BaseClass{
+
+	@Test
+	public void addLocation() {
+		//login
+		LoginPage login = new LoginPage();	
+		
+		//Admin tab
+		//Organization
+		//Location
+		//click add button
+	}
+}

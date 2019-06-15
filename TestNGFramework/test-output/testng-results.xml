@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="16410" started-at="2019-06-15T18:41:24Z" finished-at="2019-06-15T18:41:41Z">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginPageTest.doLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@91161c7]" name="doLogin" class="com.syntax.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginToOrangeHRM()[pri:0, instance:com.syntax.testcases.LoginPageTest@91161c7]" name="loginToOrangeHRM" class="com.syntax.testcases.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Smoke Test" duration-ms="16410" started-at="2019-06-15T18:41:24Z" finished-at="2019-06-15T18:41:41Z">
+      <class name="com.syntax.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.syntax.testcases.LoginPageTest@91161c7]" name="setUpDriver" is-config="true" duration-ms="5550" started-at="2019-06-15T18:41:24Z" finished-at="2019-06-15T18:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@91161c7]" name="doLogin" duration-ms="3441" started-at="2019-06-15T18:41:30Z" finished-at="2019-06-15T18:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@91161c7]" name="tearDown" is-config="true" duration-ms="776" started-at="2019-06-15T18:41:33Z" finished-at="2019-06-15T18:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.syntax.testcases.LoginPageTest@91161c7]" name="setUpDriver" is-config="true" duration-ms="4567" started-at="2019-06-15T18:41:34Z" finished-at="2019-06-15T18:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="loginToOrangeHRM()[pri:0, instance:com.syntax.testcases.LoginPageTest@91161c7]" name="loginToOrangeHRM" duration-ms="1328" started-at="2019-06-15T18:41:39Z" finished-at="2019-06-15T18:41:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOrangeHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@91161c7]" name="tearDown" is-config="true" duration-ms="711" started-at="2019-06-15T18:41:40Z" finished-at="2019-06-15T18:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.syntax.testcases.LoginPageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>

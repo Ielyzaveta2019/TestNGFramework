@@ -1,0 +1,20 @@
+package com.class24;
+
+public class ThisWithConstructor {
+	
+	 public ThisWithConstructor() {
+		System.out.println("I have no parameters");
+	}
+	 public ThisWithConstructor(String str) {
+		 System.out.println("I have 1 string parameter"+str);
+		
+	}
+	 public ThisWithConstructor(String str1,String str2) {
+		 this();//THIS should be the first statement within constructor
+		 System.out.println("I have 1 string parameters"+str1+" "+str2);
+	 }
+	 public static void main(String []args) {
+		 
+	 }
+	 
+}

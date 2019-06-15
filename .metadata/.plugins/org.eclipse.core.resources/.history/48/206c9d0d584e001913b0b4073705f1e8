@@ -1,0 +1,71 @@
+package com.Class12;
+
+public class StringManipulations2 {
+
+	public static void main(String[] args) {
+		//contains() -->chacks for specific values in Stringm If value is present-->true, else-->false
+		
+		String str="Good morning, students!";
+		boolean contains=str.contains("students");
+	   System.out.println(contains);
+	   
+	   String present="Welcome, Asel";
+	   String neededValue="Welcome,";
+	   
+	   boolean flag=present.contains(neededValue);
+	   System.out.println(flag);
+	   
+	   boolean flag1=present.toUpperCase().contains(neededValue);
+	   System.out.println(flag1);
+	   
+	   //startsWith(), endsWith(), --> will return true if String starts/ends with , else-->false
+	   System.out.println ("____StartsWith & EndsWith____");
+	   String str1="syntax";
+	   
+	   boolean starts=str1.startsWith("s");
+	   System.out.println(starts);
+	   
+	   System.out.println(str1.endsWith("y"));
+	   
+	   //isEmpty() is length of a string is 0-->string is empty else-->it is not
+	   System.out.println("______isEmpty()_____");
+	   String str2="";
+	   boolean isEmpty=str2.isEmpty();
+	   System.out.println(isEmpty);
+	   
+	   //concat()--> will concatenate one string to another
+	   System.out.println("___________concat()______");
+	   String str3="Hello";
+	   String str4="Ali";
+	   
+	   System.out.println(str3+str4);
+	   System.out.println(str3.vo==concat(str4));
+	   
+	   //trim()--> will remove spaces at the beginning and at the end of your String
+	   System.out.println("_____--_____)"
+	   String expected="You may qualify for a multi-policy discount!";
+	   String actual=" You may qualify for a multi-policy discount! ";
+	   
+	   expected=expected.trim();
+	   System.out.println(expected.equals(actual));
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+
+	}
+
+}

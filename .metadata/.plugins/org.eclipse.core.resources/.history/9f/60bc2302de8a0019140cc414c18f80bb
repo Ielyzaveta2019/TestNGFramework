@@ -1,0 +1,20 @@
+package com.syntax.pages;
+
+import org.testng.annotations.Test;
+
+import com.syntax.utils.BaseClass;
+
+public class AddEmployeeTest extends BaseClass{
+	
+	@Test
+	public void addEmployee() {
+		LoginPage login = new LoginPage();
+		HomePage home = new HomePage();
+		AddEmployeePage addEmp = new AddEmployeePage();
+		login.login(Configs)
+		
+		
+	
+	}
+
+}
